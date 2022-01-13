@@ -1,6 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -351,10 +353,13 @@ template {
   background-color: #040440;
 }
 
-.header__title {
+.header-text {
   width: 280px;
   margin: 0;
   padding: 0;
+}
+
+.header__title {
   font-family: Arial;
   font-size: 18px;
   line-height: 1.2;
@@ -383,6 +388,11 @@ template {
   color: #fff;
 }
 
+.header-menu__item:not(:last-child)::after {
+  content: '';
+  margin-right: 90px;
+}
+
 .header-menu__link {
   color: inherit;
   text-decoration: none;
@@ -396,11 +406,18 @@ template {
           border-radius: 50px;
   border: none;
   background-color: #c93555;
-  font-family: 'Helvetica Neue Cyr';
   font-size: 24px;
   line-height: 1.2;
   font-weight: 500;
+  text-transform: uppercase;
   color: #fff;
+}
+
+@font-face {
+  .header-button {
+    font-family: HelveticaNeueCyr-Thin, sans-serif;
+    src: url(../../assets/fonts);
+  }
 }
 
 .header-container {
@@ -419,5 +436,74 @@ template {
   margin-left: 105px;
   margin-right: 87px;
   padding: 7px 0 8px 0;
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: 95px;
+}
+
+.header-block {
+  background-image: url(../../assets/img/block-top-image.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cove cove;
+          background-size: cove;
+}
+
+.header-block-container {
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 356px;
+  padding-bottom: 150px;
+}
+
+.header-block__title {
+  width: 460px;
+  margin-bottom: 50px;
+  font-family: 'Helvetica Neue Cyr', sans-serif;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.header-block__subtitle {
+  margin-bottom: 88px;
+  font-family: 'Helvetica Neue Cyr', sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fefefe;
+}
+
+.header-block__button {
+  margin: 0;
+  padding: 22px 46px 31px 46px;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  border: none;
+  background-color: #c93555;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.top-line {
+  margin-bottom: 16px;
+  width: 120px;
+  height: 8px;
+  background-color: #c93555;
+}
+
+.top-line__title {
+  margin-bottom: 49px;
+  font-family: 'Helvetica Neue Cyr', sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #c93555;
 }
 /*# sourceMappingURL=style.css.map */
