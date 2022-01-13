@@ -1,6 +1,44 @@
 .header
-  height: 88px
-  background-color: #040440
-  display: flex
-  align-items: center
-  justify-content: space-between
+  //height: 88px
+  width: 100%
+  background-color: $header-color
+  &__title
+    width: 280px
+    margin: 0
+    padding: 0
+    font-family: Arial
+    font-size: 18px
+    line-height: 1.2
+    font-weight: 400
+    color: $light
+    text-transform: uppercase
+  &-menu
+    list-style: none
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__item
+      color: $light
+
+    &__link
+      color: inherit
+      text-decoration: none
+      text-transform: uppercase
+  &-button
+    margin: 0
+    padding: 22px 46px 31px 46px
+    border-radius: 50px
+    border: none
+    background-color: $button-color
+    font-family: 'Helvetica Neue Cyr'
+    font-size: 24px
+    line-height: 1.2
+    font-weight: 500
+    color: $light
+  &-container
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-left: 105px
+    margin-right: 87px
+    padding: 7px 0 8px 0
