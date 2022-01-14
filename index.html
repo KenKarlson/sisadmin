@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -18,7 +18,7 @@
         <nav class="menu">
           <ul class="header-menu">
             <li class="header-menu__item">
-              <a href="#" class="header-menu__link">Главная</a>
+              <a href="#" class="header-menu__link">О нас</a>
             </li>
             <li class="header-menu__item">
               <a href="#" class="header-menu__link">О курсе</a>
@@ -45,6 +45,18 @@
             Незаменимый специалист в любой компании
           </div>
           <button class="header-block__button">Записаться</button>
+          <div class="header-block-informer">
+            <div class="header-block-informer__item">
+              <div class="header-block-informer__title">Стоимость</div>
+              <span class="header-block-informer__subtitle">От 2700р/мес</span>
+            </div>
+            <div class="header-block-informer__item">
+              <div class="header-block-informer__title">ПРОДОЛЖИТЕЛЬНОСТЬ</div>
+              <span class="header-block-informer__subtitle">3 месяца</span></div>
+            <div class="header-block-informer__item">
+              <div class="header-block-informer__title">Формат обучения</div>
+              <span class="header-block-informer__subtitle">Очная</span></div>
+          </div>
         </div>
         <!-- /.header-block-container -->
       </section>
@@ -63,13 +75,13 @@
             </div>
 
             <div class="block block__subtitle">
-              Системный администратор обеспечивает бесперебойное
+              <p>Системный администратор обеспечивает бесперебойное
               функционирование компьютерной техники и программного обеспечения в
               организации. Он занимается поддержкой серверов, проектирует и
               администрирует локальную сеть, выдаёт пользователям доступ к
-              сайтам. Сисадмин — штатный или на аутсорсе — нужен каждой
+              сайтам.</p> <p>Сисадмин — штатный или на аутсорсе — нужен каждой
               компании, где есть хотя бы один компьютер, поэтому представители
-              этой профессии не испытывают проблем с трудоустройством.
+              этой профессии не испытывают проблем с трудоустройством.</p>
             </div>
           </div>
         </div>
@@ -78,26 +90,59 @@
       <!-- /.about-block -->
       <section class="inform-block">
         <div class="inform-block-container">
-          <div class="block block-top">
-            <div class="block block__line"></div>
-            <div class="block block__title">О курсе</div>
+          <div class="inform-block-container-top">
+            <div class="inform-block-container__line"></div>
+            <div class="inform-block-container__title">О курсе</div>
           </div>
-          <div class="block block__subtitle">
-            Системный администратор обеспечивает бесперебойное функционирование
-            компьютерной техники и программного обеспечения в организации. Он
-            занимается поддержкой серверов, проектирует и администрирует
-            локальную сеть, выдаёт пользователям доступ к сайтам. Сисадмин —
-            штатный или на аутсорсе — нужен каждой компании, где есть хотя бы
-            один компьютер, поэтому представители этой профессии не испытывают
-            проблем с трудоустройством.
+          <div class="inform-block-container-bottom">
+            <div class="inform-block-container__subtitle">
+              <p>Курс предназначен для широкого круга слушателей, желающих познакомиться с 
+              локальными сетями, понять принципы, по которым они работают, получить знания и навыки по их построению. Слушатели также познакомятся с основополагающими 
+              принципами работы ОС Windows в локальной сети. Курс является базовым в обучении 
+              технических специалистов и предполагает обучение фундаментальным принципам
+               построения локальных сетей.</p>
+            </div>
+            
+
           </div>
-          <div class="block block-button">
+          <div class="inform-block-container-button">
+            <div class="inform-block-container-button__box-1">
+              <div class="inform-block-container-top">
+                <div class="inform-block-container__line"></div>
+                <div class="inform-block-container__title">Выдаваемый документ</div>
+              </div>
+              <div class="inform-block-container-bottom">
+                <div class="inform-block-container__subtitle">
+                  <p>Диплом о профессиональной переподготовке 
+                    с присвоением квалификации</p>
+                </div>          
+              </div>
+            </div>
+            <div class="inform-block-container-button__box-2">
+              <button class="block block__button">Сайт&nbsp;образовательного центра</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="inform-block-container">
+          <div class="inform-block-container-top">
+            <div class="inform-block-container__line"></div>
+            <div class="inform-block-container__title">О курсе</div>
+          </div>
+          <div class="inform-block-container__subtitle">
+            Курс предназначен для широкого круга слушателей, желающих познакомиться с 
+локальными сетями, понять принципы, по которым они работают, получить знания и навыки по их построению. Слушатели также познакомятся с основополагающими 
+принципами работы ОС Windows в локальной сети. Курс является базовым в обучении 
+технических специалистов и предполагает обучение фундаментальным принципам
+ построения локальных сетей.
+          </div>
+          <div class="inform-block-container-button">
             <div class="block-1">
               <div class="block block-top">
                 <div class="block block__line"></div>
                 <div class="block block__title">Выдаваемый документ</div>
               </div>
-              <div class="block block__subtitle">
+              <div class="block block__subtitle inform-block__subtitle">
                 Диплом о профессиональной переподготовке с присвоением
                 квалификации
               </div>
@@ -105,8 +150,8 @@
             <div class="block-2">
               <button class="block block__button">Сайт образовательного центра</button>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div>-->
         <!-- /.inform-block-container -->
       </section>
       <!-- /.inform-block -->
@@ -114,8 +159,16 @@
     <!-- /.main -->
     <footer class="footer">
       <div class="footer-container">
-        
-      </div>
+        <div class="footer-container-social">
+          
+          <div class="footer-social__item"><i class="fab fa-facebook fa-w-14"></i></div>
+          <div class="footer-social__item"><i class="fab fa-vk"></i></div>
+          <div class="footer-social__item"><i class="fab fa-youtube"></i></div>
+        </div>
+        <div class="footer-container__adres">098773 Санкт Петербург, ул. Бассейная, д 23</div>
+        <div class="footer-container__mail">sys-adm@gmail.com</div>
+        <div class="footer-container__phone">8-800-321-43-23</div>
+      
       <!-- /.footer-container -->
     </footer>
     <!-- /.footer -->
